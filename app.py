@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Route to the root URL
 @app.route('/')
 def hello():
-    return 'Welcome to elai!'
+    return 'Welcome to elai agritech!'
 
 # Route to a custom endpoint
 @app.route('/greet/<name>')
