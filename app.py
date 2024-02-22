@@ -12,7 +12,7 @@ def hello():
 # Route to a custom endpoint
 @app.route('/greet/<name>')
 def greet(name):
-    return f'Hello, {name}! Welcome to ELAI AGRI!.'
+    return f'Hello, {name}! Welcome to ELAI AGRI tech!.'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000)
